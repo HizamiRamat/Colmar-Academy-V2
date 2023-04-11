@@ -1,0 +1,464 @@
+/* Common Styles */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #989898;
+    width: 100%
+}
+
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font: #4f4f4f;
+}
+
+h2 {
+    font-size: 24px;
+    font: #4f4f4f;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 22px;
+    font: #4f4f4f;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20px;
+    font: #4f4f4f;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 18px;
+    font: #4f4f4f;
+    font-weight: bold;
+}
+
+.startButton {
+    background-color: #2e2e2e;
+    width: 60%;
+    color: white;
+    text-align: center;
+}
+
+.readMoreButton {
+    font: #0769f1;
+    font-weight: bold;
+}
+
+.paddingTop16 {
+    padding-bottom: 16px;
+}
+
+.paddingTop8 {
+    margin-bottom: 8px;
+}
+
+
+/* End of common styles */
+
+header {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+}
+
+
+.colmar {
+    font: #01161E;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.academy {
+    font-size: 20px;
+    font: #9f9b9b;
+}
+
+.desktop a {
+    padding-left: 16px;
+}
+
+.mainSection {
+    display: flex;
+    background-color: #c4c2c2;
+    padding: 32px 24px;
+}
+
+.mainSection img {
+    width: 60%;
+}
+
+.mainSection div {
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.infoSection {
+    display: flex;
+    width: 100%;
+    margin: 32px 24px;
+}
+
+.leftSection {
+    width: 60%;
+    padding-right: 24px;
+}
+
+.leftSection p {
+    padding: 24px 0px;
+}
+
+.leftSection img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 32px;
+}
+
+.rightSection {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rightSection img {
+    width: 35%;
+    height: auto;
+}
+
+.sidebar {
+    display: flex;
+    width: 100%;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
+
+.rSectionInfo {
+    width: 65%;
+    padding: 50px 20px;
+    text-align: start;
+}
+
+.claBg {
+    background-color: #e1dfdf;
+    padding: 0px 72px;
+}
+
+.classTitle {
+    text-align: center;
+    padding: 32px;
+}
+
+.courseContainer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.course {
+    width: 32%;
+    background-color: #fbfbfb;
+    margin-bottom: 32px;
+}
+
+.course img {
+    width: 100%
+}
+
+.course div {
+    padding: 16px 16px 24px 16px;
+}
+
+.course p {
+    padding-top: 16px;
+}
+
+.thesisSection {
+    display: flex;
+    width: 90%;
+    padding: 0px 24px 24px 32px;
+}
+
+.tLeftSection {
+    width: 60%;
+}
+
+.tLeftSection video {
+    width: 100%;
+    padding-right: 24px;
+}
+
+.tLeftSection p {
+    padding: 15px 0px 32px 0px;
+}
+
+.tLeftSection h3 {
+    padding-top: 24px;
+}
+
+.thesisTitle {
+    text-align: center;
+    padding: 32px;
+}
+
+.tRightSection {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 24px;
+}
+
+.tRightSectionInfo {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.tRightSectionInfo img {
+    width: 25%;
+    padding: 16px
+}
+
+.tRightSectionInfoDetails {
+    padding: 50px 0px;
+    text-align: start;
+}
+
+@media screen and (max-width : 2500px) {
+
+    .mobile,
+    .mobileClass, .mobileVideo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 720px) {
+    body {
+        margin: 0;
+    }
+
+    .desktop,
+    .desktopHeader,
+    .leftSection,
+    .thesisSection,
+    .claBg{
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        width: 100%;
+    }
+
+    header nav {
+        justify-content: space-around;
+    }
+
+    .mainSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .mainSection div {
+        padding: 32px 0px;
+        text-align: center;
+    }
+
+    .mainSection img {
+        width: 100%;
+
+    }
+
+    .startButton {
+        display: flex;
+        justify-content: center;
+        margin-left: 152px;
+
+    }
+
+    .infoSection {
+        margin: 0px;
+    }
+
+    .rightSection {
+        width: 100%;
+        padding: 32px;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .sidebar img {
+        width: 100%;
+        margin: 0px;
+        padding-top:32px ;
+    }
+
+    .rSectionInfo {
+        width: 100%;
+        padding: 0px 0px 0px 16px;
+    }
+
+    .rSectionInfo h3 {
+        padding: 16px 0px;
+    }
+    
+    .readMoreButton {
+        padding-top: 8px;
+    }
+
+    .mobileClass {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 16px 72px;
+    }
+
+    .mobileClass h4 {
+        padding: 16px;
+        background-color: #c4c2c2;
+    }
+
+    .mobileClass div {
+        padding-bottom: 16px;
+
+    }
+
+    .thesisSection {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .mobileVideo {
+        display: contents;
+        width: 100%;
+    }
+
+}
+
+/* This is for the header  */
+
+/* header {
+    height: 64px;
+    display: flex;
+    justify-content:space-between;
+    margin: 24px;
+}
+
+
+
+/*  This id for the navbar */
+/* 
+nav a {
+    padding-left: 16px;
+} */
+
+/* 
+.section1 {
+    background-color: #c4c2c2;
+    padding: 32px 24px;
+    align-items: center;
+}
+
+.section1 img {
+    width:60%
+}
+
+.section1 div {
+    padding:24px;
+
+}
+
+.section1 h1 {
+    margin-bottom: 16px;
+}
+.StartButton {
+    color: #c4c2c2;
+    background-color: #515151;
+    text-align: center;
+    width:60%;
+    margin-top: 8px;
+}
+
+
+.section2 {
+    padding: 32px 24px;
+    width:600%;
+}
+
+.section2 img {
+    width: 60%;
+}
+
+.section3 {
+    background-color: #e1dfdf;
+}
+
+.courseContainer {
+    display: flex;
+    margin:72px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+@media screen and (max-width : 720px) {
+
+    .header {
+        display: flex;
+        justify-content: space-evenly;
+
+
+    }
+
+    .section1 img {
+        display: flex;
+
+        width: 100%;
+    }
+
+
+
+
+    .section2 img {
+        display: none;
+    }
+
+    
+    .section3 img {
+        display: none;
+    }
+
+    .courseContainer {
+        margin: 72px;
+        background-color: #c4c2c2 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .courseContainer p {
+        display: none;
+    }
+    
+    .course {
+        padding: 16px;
+    }
